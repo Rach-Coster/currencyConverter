@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  RateHistoryController.swift
 //  CurrencyConverter
 //
-//  Created by User on 22/6/2023.
+//  Created by User on 25/6/2023.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class RateHistoryController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +16,3 @@ class ViewController: UIViewController {
 
 
 }
-

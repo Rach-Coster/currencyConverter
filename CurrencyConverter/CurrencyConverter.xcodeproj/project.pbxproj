@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE50110C2A482D5A00488674 /* RateOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50110B2A482D5A00488674 /* RateOverviewController.swift */; };
+		CE50110E2A482D9F00488674 /* RateHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50110D2A482D9F00488674 /* RateHistoryController.swift */; };
+		CE5011112A482DDE00488674 /* CashRateRankingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5011102A482DDE00488674 /* CashRateRankingController.swift */; };
+		CE5011132A482E0F00488674 /* RateNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5011122A482E0F00488674 /* RateNotificationController.swift */; };
+		CEA0FCE62A52A24700BD085B /* RateRankerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0FCE52A52A24700BD085B /* RateRankerIcon.png */; };
 		CEA20D472A44166E00B333D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA20D462A44166E00B333D4 /* AppDelegate.swift */; };
 		CEA20D492A44166E00B333D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA20D482A44166E00B333D4 /* SceneDelegate.swift */; };
-		CEA20D4B2A44166E00B333D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA20D4A2A44166E00B333D4 /* ViewController.swift */; };
 		CEA20D4E2A44166E00B333D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA20D4C2A44166E00B333D4 /* Main.storyboard */; };
 		CEA20D502A44167100B333D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA20D4F2A44167100B333D4 /* Assets.xcassets */; };
 		CEA20D532A44167100B333D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA20D512A44167100B333D4 /* LaunchScreen.storyboard */; };
+		CEA20D5C2A442D5A00B333D4 /* SemiCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA20D5B2A442D5A00B333D4 /* SemiCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE50110B2A482D5A00488674 /* RateOverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateOverviewController.swift; sourceTree = "<group>"; };
+		CE50110D2A482D9F00488674 /* RateHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateHistoryController.swift; sourceTree = "<group>"; };
+		CE5011102A482DDE00488674 /* CashRateRankingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashRateRankingController.swift; sourceTree = "<group>"; };
+		CE5011122A482E0F00488674 /* RateNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateNotificationController.swift; sourceTree = "<group>"; };
+		CEA0FCE52A52A24700BD085B /* RateRankerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RateRankerIcon.png; path = ../../../../../../../Downloads/RateRankerIcon.png; sourceTree = "<group>"; };
 		CEA20D432A44166E00B333D4 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA20D462A44166E00B333D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA20D482A44166E00B333D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEA20D4A2A44166E00B333D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEA20D4D2A44166E00B333D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEA20D4F2A44167100B333D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA20D522A44167100B333D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA20D542A44167100B333D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA20D5B2A442D5A00B333D4 /* SemiCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE50110A2A482D3A00488674 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE50110B2A482D5A00488674 /* RateOverviewController.swift */,
+				CE50110D2A482D9F00488674 /* RateHistoryController.swift */,
+				CE5011102A482DDE00488674 /* CashRateRankingController.swift */,
+				CE5011122A482E0F00488674 /* RateNotificationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEA0FCE42A52A1E900BD085B /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				CEA0FCE52A52A24700BD085B /* RateRankerIcon.png */,
+			);
+			path = ImageAssets;
+			sourceTree = "<group>";
+		};
 		CEA20D3A2A44166D00B333D4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +85,25 @@
 		CEA20D452A44166E00B333D4 /* CurrencyConverter */ = {
 			isa = PBXGroup;
 			children = (
+				CEA0FCE42A52A1E900BD085B /* ImageAssets */,
+				CE50110A2A482D3A00488674 /* Controllers */,
+				CEA20D5A2A442D3100B333D4 /* ViewDetails */,
 				CEA20D462A44166E00B333D4 /* AppDelegate.swift */,
 				CEA20D482A44166E00B333D4 /* SceneDelegate.swift */,
-				CEA20D4A2A44166E00B333D4 /* ViewController.swift */,
 				CEA20D4C2A44166E00B333D4 /* Main.storyboard */,
 				CEA20D4F2A44167100B333D4 /* Assets.xcassets */,
 				CEA20D512A44167100B333D4 /* LaunchScreen.storyboard */,
 				CEA20D542A44167100B333D4 /* Info.plist */,
 			);
 			path = CurrencyConverter;
+			sourceTree = "<group>";
+		};
+		CEA20D5A2A442D3100B333D4 /* ViewDetails */ = {
+			isa = PBXGroup;
+			children = (
+				CEA20D5B2A442D5A00B333D4 /* SemiCircleView.swift */,
+			);
+			path = ViewDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA20D532A44167100B333D4 /* LaunchScreen.storyboard in Resources */,
+				CEA0FCE62A52A24700BD085B /* RateRankerIcon.png in Resources */,
 				CEA20D502A44167100B333D4 /* Assets.xcassets in Resources */,
 				CEA20D4E2A44166E00B333D4 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA20D4B2A44166E00B333D4 /* ViewController.swift in Sources */,
+				CE50110E2A482D9F00488674 /* RateHistoryController.swift in Sources */,
+				CE5011132A482E0F00488674 /* RateNotificationController.swift in Sources */,
 				CEA20D472A44166E00B333D4 /* AppDelegate.swift in Sources */,
+				CEA20D5C2A442D5A00B333D4 /* SemiCircleView.swift in Sources */,
+				CE5011112A482DDE00488674 /* CashRateRankingController.swift in Sources */,
 				CEA20D492A44166E00B333D4 /* SceneDelegate.swift in Sources */,
+				CE50110C2A482D5A00488674 /* RateOverviewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
